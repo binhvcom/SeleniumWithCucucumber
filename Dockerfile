@@ -2,5 +2,4 @@ FROM maven
 
 WORKDIR '/app'
 
-COPY /SeleniumWithCucucumber .
-
+COPY pom.xml .
